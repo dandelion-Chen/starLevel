@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画星星</title>
+</head>
+<body>
+	<div id="star1"></div>
+	<div id="star2"></div>
+	<div id="star3"></div>
+</body>
+</html>
+
+<script type="text/javascript" src="js/starLevel.js"></script>
+<script type="text/javascript">
+	var star1 = document.getElementById('star1');
+	var star2 = document.getElementById('star2');
+	var star3 = document.getElementById('star3');
+
+	// 默认模式下
+	new starLevel(star1,3);
+
+	//修改颜色
+	new starLevel(star2,4,{
+		borderColor:"#90cef3", //边框颜色
+		fillColor:"#90cef3" //填充颜色
+	})
+	//放大星星，扩大间距
+	new starLevel(star3,2,{
+		borderColor:"#90cef3", //边框颜色
+		fillColor:"#90cef3", //填充颜色
+		bigR:20,  //bigR和smallR控制星星大小及形状，smallR/bigR 越小星星越尖。
+		smallR:12,
+		space:10 //星星之间的间距，默认 为5
+	})
+</script>
