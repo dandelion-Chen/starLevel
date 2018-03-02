@@ -25,7 +25,7 @@
 ### 使用例子
 
 ```javascript
-var star1 = document.getElementById('star1');
+	var star1 = document.getElementById('star1');
 	var star2 = document.getElementById('star2');
 	var star3 = document.getElementById('star3');
 	// 默认模式下
