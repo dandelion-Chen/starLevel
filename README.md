@@ -3,7 +3,7 @@
 - 可修改参数修改星星的颜色、形状、大小以及星星间距；
 - 可兼容移动端、谷歌、火狐以及IE9以上浏览器。
 
-###二、 starlevel 初始化
+### 二、 starlevel 初始化
 
     
       new starLevel(dom,level,opition)；
