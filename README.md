@@ -1,9 +1,9 @@
-### starlevel介绍
+### 一、starlevel介绍
 - 基于canvas绘画出五星等级；
 - 可修改参数修改星星的颜色、形状、大小以及星星间距；
 - 可兼容移动端、谷歌、火狐以及IE9以上浏览器。
 
-### starlevel 初始化
+###二、 starlevel 初始化
 
     
       new starLevel(dom,level,opition)；
@@ -22,7 +22,7 @@
   >-space : 星星间的间隔，默认为5；  
   >-lineWidth :  星星描边大小。
 
-### 使用例子
+### 三、使用例子
 
 ```javascript
 	var star1 = document.getElementById('star1');
@@ -44,5 +44,5 @@
 		space:10 //星星之间的间距，默认 为5
 	})
 ```
-##### 展示效果
+### 四、展示效果
 ![](https://github.com/dandelion-Chen/starLevel/raw/master/images/example.png)  
